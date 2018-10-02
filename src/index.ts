@@ -1,7 +1,6 @@
 import ts, { DirectoryWatcherCallback, FileWatcherCallback, BuilderProgram, WatchCompilerHost, WatchStatusReporter, DiagnosticReporter, CreateProgram, CompilerOptions, FileWatcher, FileWatcherEventKind } from 'typescript';
 import Path from 'path';
 import {EventEmitter, Disposable} from 'ee-ts';
-import { matchFiles } from './matchfiles';
 import { FileSystemEntries } from './ts-internals';
 
 export class EasyCompilerHost {
