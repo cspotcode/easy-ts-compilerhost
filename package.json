@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/package.json",
+  "private": true,
+  "license": "MIT",
+  "author": "Andrew Bradley <cspotcode@gmail.com>",
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^10.11.3",
+    "cross-spawn": "^6.0.5",
+    "ee-ts": "^0.1.4",
+    "lodash": "^4.17.11",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.1",
+    "typescript-toolbelt": "0.0.5"
+  }
+}
